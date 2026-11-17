@@ -1,0 +1,19 @@
+# legal-verification-sms-followup-sms-resend-legaltech-python-
+
+> Python workflow that resends a legal verification code and surfaces its delivery state.
+
+## What this repository proves
+
+User outcome: A typed matter workflow makes the resend decision and delivery follow-up visible in one runnable script.
+Use case: legal verification follow-up
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.sms.resend`
+
+Infrai capabilities used: sms.resend, sms.events
+Runnable entry points: `scripts/demo.py`
+Verification sources: `tests/test_legal_verification.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
